@@ -1,12 +1,10 @@
 using ProjetoGestaoVendas.Dominio.Enumeradores;
 
-namespace ProjetoGestaoVendas.Dominio.Entidades;
+namespace ProjetoGestaoVendas.API.Models.Venda.Requisicao;
 
-public class Venda
+public class VendaAtualizar
 {
     public int ID { get; set; }
     public decimal Valor { get; set; }
     public TipoPagamento TipoPagamento { get; set; }
-    public DateTime DataEHora { get; set; }
-    public bool Ativo { get; set; } = true;
 }
